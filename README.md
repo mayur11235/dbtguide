@@ -11,8 +11,6 @@ This is a sample dbt project implementing an ELT pipeline for a fictional custom
    - `fct_orders`: Transaction-level order facts, joined with payments.
 4. **Deployment**: Runs scheduled in **dbt Cloud** with environment-specific configs.
 
-## 📦 Setup
-
 ### Prerequisites
 - A Snowflake account (with a database + schema created)
 - A dbt Cloud account
